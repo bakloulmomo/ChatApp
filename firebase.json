@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bkl-messanger",
+          "appId": "1:330649638411:android:5261282d97856c61d5d90e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bkl-messanger",
+          "configurations": {
+            "android": "1:330649638411:android:5261282d97856c61d5d90e",
+            "ios": "1:330649638411:ios:f2949ed4c12a92c8d5d90e",
+            "web": "1:330649638411:web:ed2925d9d2f85a9ed5d90e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

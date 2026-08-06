@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330649638411",
+    "project_id": "bkl-messanger",
+    "storage_bucket": "bkl-messanger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330649638411:android:5261282d97856c61d5d90e",
+        "android_client_info": {
+          "package_name": "com.example.bkl_messanger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfsKpwWxATJt_GM5pGTyzK0Vt8Fv96dEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
